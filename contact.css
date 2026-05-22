@@ -1,0 +1,242 @@
+/* CONTACT SECTION */
+
+:root{
+    --primary-color: #ff4500;
+    --secondary-color: #081C3A;
+    --background-color: #f4f4f4;
+    --text-color: #333;
+    --border-color: #ddd;
+    --hover-color: #c93d2d;
+    --font-family: 'Arial', sans-serif;
+    --transition: 0.3s ease-in;
+    --border-radius: 5px;
+    --box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    --tagline-background-color: #D79840;
+}
+
+.contact-form{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select{
+    width: 100%;
+    padding: 5px 30px;
+    margin-bottom: 15px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    font-family: var(--font-family);
+}
+
+.contact-form textarea{
+    resize: none;
+}
+
+.contact-form label{
+    font-weight: 600;
+}
+
+.contact-form button{
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background-color var(--transition);
+}
+
+.contact-form button:hover{
+    background-color: var(--hover-color);
+}
+
+.bottom-flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fa-clock{
+    color: var(--primary-color);
+}
+
+.left{
+    font-size: 14px;
+    margin-left: -23px;
+}
+
+#contact{
+    background-color: #FEF7E8;
+    padding: 30px 0 30px 0;
+}
+
+.contact-text{
+    line-height: 1.6;
+}
+
+.contact-text h2{
+    font-size: 28px;
+}
+
+.contact-text .get-in-touch{
+    color: var(--primary-color);
+    /* margin-bottom: 8px; */
+}
+
+.contact-container h2{
+    padding: 20px 12px;
+    margin: 15px 0;
+    font-size: 20px !important;
+}
+
+.contact-flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.label-flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+/* Contact Info */
+.contact-container{
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 15px 12px;
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+.contact-content{
+    display: flex;
+    /* text-align: center; */
+    align-items:flex-start;
+    line-height: 1.4;
+    margin: 20px;
+}
+
+.contact-content i{
+    font-size: 23px;
+}
+
+.follow-us{
+    padding-bottom: 0 !important;
+}
+
+.contact-container a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease-in;
+}
+
+.contact-container a:hover i{
+    color: var(--primary-color);
+}
+
+#footer{
+    background-color: var(--secondary-color);
+    padding: 20px 0;
+
+}
+.footer-container{
+    display: flex;
+    flex-wrap:wrap ;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+}
+
+.footerlogo-title span, .copyright{
+    color: #8f8e8eec;
+}
+
+.footer-links li a{
+    color: #8f8e8eec;
+}
+
+.footer-links li a:hover{
+    color: var(--primary-color);
+    transition: all 0.3s ease-in;
+}
+
+.footer-links li a::after{
+    display: none;
+}
+
+nav strong{
+    justify-content:flex-start;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: flex-start;
+}
+
+nav strong{
+    margin: 0 0 10px 12px;
+    font-size: 22px;
+}
+
+.whatsapp-footer {
+    display: inline-flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #fff;
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    position: relative;
+}
+
+.whatsapp-footer i {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 34px;
+    padding: 0;
+    position: absolute;
+    top: -50px;
+    right: -63px;
+}
+
+.whatsapp-footer:hover i {
+    background-color: #25d366;
+    transition: background-color 0.3s ease-in;
+}
+
+.copyright{
+    font-size: 14px;
+    color: #8f8e8eec;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.map iframe{
+    border: 0;
+    border-radius: 10px;
+}

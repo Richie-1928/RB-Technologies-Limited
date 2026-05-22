@@ -1,0 +1,140 @@
+/* PROJECTS SECTION */
+ #projects{
+    margin-bottom: 70px;
+} 
+
+.projects-container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.projects-container-flex a{
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+.projects-container-flex a:hover{
+    color: var(--hover-color);
+}
+
+.projects-container-flex a:hover{
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    transform:scaleY(1)
+}
+
+.project-container{
+    margin: auto;
+    padding: 30px 0;
+}
+
+.project-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+}
+
+.project-card{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+}
+
+.project-card:hover{
+    transform: translateY(-8px);
+    background-color: var(--hover-color);
+    color: #fff;
+}
+
+.project-card img{
+    border-radius: 10px 10px 0 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.project-card-text{
+    margin-left: 20px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.project-card-text>strong{
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 6px;
+    border: solid 3px #fff;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+.project-card-text>p{
+    margin-top: 10px;
+}
+
+.project-card-text>span{
+    font-size: 14px;
+    color: var(--text-color);
+}
+
+.projects-text .our-projects{
+    color: var(--primary-color);
+    margin: 10px 0;
+}
+
+.projects-text{
+    /* font-size: 30px; */
+    margin: 30px 0;
+}
+
+.testimonials{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.testimonial-text:hover{
+    background-color: var(--hover-color);
+    color: #fff;
+    transition: var(--transition);
+}
+
+.testimonial-container h2{
+    color: var(--primary-color);
+}
+
+.testimonial-text{
+    position: relative;
+    background-color: #ffffff;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    padding: 20px 10px 10px 45px;
+    line-height: 1.6;
+}
+
+.testimonial-text p{
+    margin-bottom: 10px;
+}
+
+.testimonial p,
+.testimonial-text{
+    font-size: 16px;
+}
+
+.testimonial-text::before{
+    content: "“"; 
+    color: var(--primary-color);
+    display: inline-block;
+    width: 3rem;
+    font-size: 7rem;
+    position: absolute;
+    top: -2.2rem;
+    left: 5px;
+}
